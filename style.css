@@ -45,3 +45,10 @@ body {
     width: 400px;
     border-radius: 1rem;
 }
+
+.datos {
+    margin-left: 4rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 40% 40%;
+}
