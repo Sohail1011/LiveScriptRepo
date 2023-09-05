@@ -20,8 +20,11 @@ body {
 }
 
 .container {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .algoritmo {
@@ -30,12 +33,12 @@ body {
     padding: 2rem;
     color: white;
     border-radius: 12px;
-    width: 56rem;
+    width: 55rem;
     grid-template-columns: 50% 30%;
 }
 
 .informacion p {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .muestra img {
