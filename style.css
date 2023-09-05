@@ -50,5 +50,47 @@ body {
     margin-left: 4rem;
     display: grid;
     gap: 1rem;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 43% 40%;
+}
+
+.entrada h2 {
+    text-align: center;
+}
+
+.entrada {
+    text-align: justify;
+}
+
+.salida h2 {
+    text-align: center;
+}
+
+.salida {
+    text-align: justify;
+}
+
+.quees {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    gap: 1rem;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    text-align: justify;
+    align-items: center;
+}
+
+.description h2 {
+    text-align: center;
+}
+
+.es5 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-align: justify;
 }
