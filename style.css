@@ -18,3 +18,18 @@ body {
     align-items: center;
     min-height: 17vh;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.algoritmo {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.muestra img {
+    width: 370px;
+    border-radius: 1rem;
+}
