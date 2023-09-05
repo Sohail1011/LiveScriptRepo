@@ -2,7 +2,7 @@
 *::after,
 *::before {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -26,10 +26,19 @@ body {
 
 .algoritmo {
     display: grid;
-    grid-template-columns: 70% 30%;
+    background-color: #f58549;
+    padding: 2rem;
+    color: white;
+    border-radius: 12px;
+    width: 56rem;
+    grid-template-columns: 50% 30%;
+}
+
+.informacion p {
+    font-size: 20px;
 }
 
 .muestra img {
-    width: 370px;
+    width: 400px;
     border-radius: 1rem;
 }
