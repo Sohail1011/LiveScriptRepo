@@ -114,3 +114,9 @@ body {
 .es5 p {
     font-size: 17px;
 }
+
+.tipos {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+}
