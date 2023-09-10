@@ -120,9 +120,37 @@ body {
     flex-direction: row;
     margin-left: 2rem;
     align-items: center;
+    gap: 1rem;
+}
+
+.explicar {
+    background-color: #f58549;
+    border-radius: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explicar h2 {
+    text-align: center;
 }
 
 .vistas {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background-color: #f58549;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.vistas h2 {
+    text-align: center;
+}
+
+.final {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
 }
