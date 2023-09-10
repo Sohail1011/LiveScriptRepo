@@ -119,4 +119,10 @@ body {
     display: flex;
     flex-direction: row;
     margin-left: 2rem;
+    align-items: center;
+}
+
+.vistas {
+    display: flex;
+    flex-direction: column;
 }
